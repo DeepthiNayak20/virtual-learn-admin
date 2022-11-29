@@ -1,0 +1,36 @@
+.Home-homeContainer {
+    background-color: var(--primaryClr);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form.Home-formController {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    background-color: #ffffff;
+    justify-items: center;
+    align-content: center;
+    min-width: 600px;
+    min-height: 634px;
+    border-radius: 4px;
+    /* padding: 2rem; */
+}
+
+.home-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #ff00004d;
+}
+
+img.home-logoImg {
+    position: relative;
+    width: 14rem;
+    background: #66339952;
+}
